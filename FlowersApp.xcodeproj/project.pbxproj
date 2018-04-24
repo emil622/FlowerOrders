@@ -10,13 +10,18 @@
 		222DD02678292E98EC76C6D1 /* Pods_FlowersAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27C6E575016BA0F2ADB239A /* Pods_FlowersAppUITests.framework */; };
 		5306272789DCF6A51BB7EC29 /* Pods_FlowersAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD03D6DC958ABE36E9029CCF /* Pods_FlowersAppTests.framework */; };
 		D012D17E208F212600B1AC4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D17D208F212600B1AC4D /* AppDelegate.swift */; };
-		D012D180208F212600B1AC4D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D17F208F212600B1AC4D /* MasterViewController.swift */; };
-		D012D182208F212600B1AC4D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D181208F212600B1AC4D /* DetailViewController.swift */; };
-		D012D185208F212600B1AC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D012D183208F212600B1AC4D /* Main.storyboard */; };
+		D012D180208F212600B1AC4D /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D17F208F212600B1AC4D /* OrdersViewController.swift */; };
+		D012D182208F212600B1AC4D /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D181208F212600B1AC4D /* OrderViewController.swift */; };
+		D012D185208F212600B1AC4D /* Orders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D012D183208F212600B1AC4D /* Orders.storyboard */; };
 		D012D187208F212700B1AC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D012D186208F212700B1AC4D /* Assets.xcassets */; };
 		D012D18A208F212700B1AC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D012D188208F212700B1AC4D /* LaunchScreen.storyboard */; };
 		D012D195208F212700B1AC4D /* FlowersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D194208F212700B1AC4D /* FlowersAppTests.swift */; };
 		D012D1A0208F212700B1AC4D /* FlowersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D19F208F212700B1AC4D /* FlowersAppUITests.swift */; };
+		D012D1B4208F25A100B1AC4D /* OrdersViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D1B3208F25A100B1AC4D /* OrdersViewModelType.swift */; };
+		D012D1B6208F25AD00B1AC4D /* OrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D1B5208F25AD00B1AC4D /* OrdersViewModel.swift */; };
+		D012D1B9208F27B900B1AC4D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D1B8208F27B900B1AC4D /* APIConstants.swift */; };
+		D012D1BB208F28E600B1AC4D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D1BA208F28E600B1AC4D /* APIClient.swift */; };
+		D012D1BE208F2A8200B1AC4D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012D1BD208F2A8200B1AC4D /* Order.swift */; };
 		E1F81EDA3FD5EDE6BE7CAC79 /* Pods_FlowersApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941E6B7358E2016302B4DD22 /* Pods_FlowersApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +51,9 @@
 		BD03D6DC958ABE36E9029CCF /* Pods_FlowersAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowersAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D012D17A208F212600B1AC4D /* FlowersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D012D17D208F212600B1AC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D012D17F208F212600B1AC4D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		D012D181208F212600B1AC4D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		D012D184208F212600B1AC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D012D17F208F212600B1AC4D /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		D012D181208F212600B1AC4D /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		D012D184208F212600B1AC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Orders.storyboard; sourceTree = "<group>"; };
 		D012D186208F212700B1AC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D012D189208F212700B1AC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D012D18B208F212700B1AC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +63,11 @@
 		D012D19B208F212700B1AC4D /* FlowersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowersAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D012D19F208F212700B1AC4D /* FlowersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersAppUITests.swift; sourceTree = "<group>"; };
 		D012D1A1208F212700B1AC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D012D1B3208F25A100B1AC4D /* OrdersViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModelType.swift; sourceTree = "<group>"; };
+		D012D1B5208F25AD00B1AC4D /* OrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModel.swift; sourceTree = "<group>"; };
+		D012D1B8208F27B900B1AC4D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		D012D1BA208F28E600B1AC4D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D012D1BD208F2A8200B1AC4D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		E27C6E575016BA0F2ADB239A /* Pods_FlowersAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowersAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF41E0198F4E7A250BF133F5 /* Pods-FlowersAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowersAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowersAppTests/Pods-FlowersAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		FCCE61604B93B5824A136532 /* Pods-FlowersAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowersAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowersAppTests/Pods-FlowersAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,11 +137,12 @@
 			isa = PBXGroup;
 			children = (
 				D012D17D208F212600B1AC4D /* AppDelegate.swift */,
-				D012D17F208F212600B1AC4D /* MasterViewController.swift */,
-				D012D181208F212600B1AC4D /* DetailViewController.swift */,
-				D012D183208F212600B1AC4D /* Main.storyboard */,
-				D012D186208F212700B1AC4D /* Assets.xcassets */,
+				D012D1AD208F242900B1AC4D /* Features */,
+				D012D1BC208F2A6C00B1AC4D /* Models */,
+				D012D1B7208F279F00B1AC4D /* Constants */,
+				D012D1B0208F245900B1AC4D /* Networking */,
 				D012D188208F212700B1AC4D /* LaunchScreen.storyboard */,
+				D012D186208F212700B1AC4D /* Assets.xcassets */,
 				D012D18B208F212700B1AC4D /* Info.plist */,
 			);
 			path = FlowersApp;
@@ -153,6 +164,74 @@
 				D012D1A1208F212700B1AC4D /* Info.plist */,
 			);
 			path = FlowersAppUITests;
+			sourceTree = "<group>";
+		};
+		D012D1AD208F242900B1AC4D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D012D1AE208F243000B1AC4D /* Orders */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D012D1AE208F243000B1AC4D /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				D012D1B2208F257700B1AC4D /* ViewModels */,
+				D012D1AF208F243B00B1AC4D /* ViewControllers */,
+				D012D1B1208F249100B1AC4D /* Storyboards */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		D012D1AF208F243B00B1AC4D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D012D17F208F212600B1AC4D /* OrdersViewController.swift */,
+				D012D181208F212600B1AC4D /* OrderViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D012D1B0208F245900B1AC4D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D012D1BA208F28E600B1AC4D /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D012D1B1208F249100B1AC4D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D012D183208F212600B1AC4D /* Orders.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D012D1B2208F257700B1AC4D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D012D1B3208F25A100B1AC4D /* OrdersViewModelType.swift */,
+				D012D1B5208F25AD00B1AC4D /* OrdersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D012D1B7208F279F00B1AC4D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D012D1B8208F27B900B1AC4D /* APIConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D012D1BC208F2A6C00B1AC4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D012D1BD208F2A8200B1AC4D /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FD385D672A67635A1A7AC121 /* Pods */ = {
@@ -278,7 +357,7 @@
 			files = (
 				D012D18A208F212700B1AC4D /* LaunchScreen.storyboard in Resources */,
 				D012D187208F212700B1AC4D /* Assets.xcassets in Resources */,
-				D012D185208F212600B1AC4D /* Main.storyboard in Resources */,
+				D012D185208F212600B1AC4D /* Orders.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,9 +457,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D012D182208F212600B1AC4D /* DetailViewController.swift in Sources */,
-				D012D180208F212600B1AC4D /* MasterViewController.swift in Sources */,
+				D012D182208F212600B1AC4D /* OrderViewController.swift in Sources */,
+				D012D1BB208F28E600B1AC4D /* APIClient.swift in Sources */,
+				D012D1BE208F2A8200B1AC4D /* Order.swift in Sources */,
+				D012D1B4208F25A100B1AC4D /* OrdersViewModelType.swift in Sources */,
+				D012D1B9208F27B900B1AC4D /* APIConstants.swift in Sources */,
+				D012D180208F212600B1AC4D /* OrdersViewController.swift in Sources */,
 				D012D17E208F212600B1AC4D /* AppDelegate.swift in Sources */,
+				D012D1B6208F25AD00B1AC4D /* OrdersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,12 +500,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D012D183208F212600B1AC4D /* Main.storyboard */ = {
+		D012D183208F212600B1AC4D /* Orders.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D012D184208F212600B1AC4D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Orders.storyboard;
 			sourceTree = "<group>";
 		};
 		D012D188208F212700B1AC4D /* LaunchScreen.storyboard */ = {
@@ -557,7 +641,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XZ3ZFT9P6;
 				INFOPLIST_FILE = FlowersApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tech.minimalbits.FlowersApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -573,7 +660,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XZ3ZFT9P6;
 				INFOPLIST_FILE = FlowersApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tech.minimalbits.FlowersApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -590,7 +680,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XZ3ZFT9P6;
 				INFOPLIST_FILE = FlowersAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tech.minimalbits.FlowersAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -608,7 +702,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XZ3ZFT9P6;
 				INFOPLIST_FILE = FlowersAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tech.minimalbits.FlowersAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -625,7 +723,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XZ3ZFT9P6;
 				INFOPLIST_FILE = FlowersAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tech.minimalbits.FlowersAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -642,7 +744,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XZ3ZFT9P6;
 				INFOPLIST_FILE = FlowersAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tech.minimalbits.FlowersAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
