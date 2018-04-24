@@ -11,7 +11,7 @@ import Foundation
 
 /// Server API URLs
 struct APIURLs {
-    static let baseURLString = "http://demo0787159.mockable.io/"
+    static let baseURLString = "https://demo0787159.mockable.io/"
 
-    static let GetOrdersURL = URL(fileURLWithPath: baseURLString + "user/orders")
+    static let GetOrdersURL = URL(string: baseURLString + "user/orders")!
 }

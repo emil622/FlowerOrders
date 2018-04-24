@@ -11,15 +11,14 @@ import UIKit
 final class OrderViewController: UIViewController {
 
     // MARK: - IBOutlets
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
+    @IBOutlet weak var idLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var deliverToLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var descriptionContentLabel: UILabel!
+    
     // MARK: - Properties
-    var detailItem: NSDate? {
-        didSet {
-            // Update the view.
-            configureView()
-        }
-    }
+    var order: Order?
     
     
     // MARK: - Lifecycle
@@ -33,10 +32,21 @@ final class OrderViewController: UIViewController {
     // MARK: - View Setup
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
+        if let order = order {
+            if let ID = order.ID {
+                idLabel.text = "Order ID: \(ID)"
+            } else {
+                idLabel.text = "unkown ID"
             }
+            
+            if let price = order.price {
+                priceLabel.text = "Price: \(price)"
+            } else {
+                priceLabel.text = "unkown price"
+            }
+
+            deliverToLabel.text = "Deliver To: \(order.deliverTo ?? "unkown")"
+            descriptionContentLabel.text = order.description
         }
     }
 }
